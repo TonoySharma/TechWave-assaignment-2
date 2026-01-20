@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* share styles */
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.color-rgba{
+color: rgba(251, 9, 180, 1)
+}
+/* main style */
+header{
+ background-color: rgb(31, 16, 53);
+ padding-top: 30px;
+ 
+}
+.btn-primary{
+    color: rgba(255, 255, 255, 1);
+    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+    border-radius: 60px;
+    width: 135px;
+    height: 44px;
+    gap: 4;
+    padding: 12px 16px 12px 16px;
+    margin-bottom: 24px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.btn-primary:hover{
+    background-color: #0392306a;
+    transform: translatex(3px) scale(1.05);
+    box-shadow: 0 5px 24px rgba(3,165,25,0.525);
+}
+.btn-primary-2{
+color: rgb(255, 255, 255);
+    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 12px 20px 12px 20px;
+ border-radius: 50px;
+ border: none;
+ font-style: 600;
+ font-weight: 600;
+ cursor: pointer;
+}
+.btn-primary-2:hover{
+    background-color: #0392306a;
+    transform: translatex(3px) scale(1.05);
+    box-shadow: 0 5px 24px rgba(3,165,25,0.525);
+}
+.btn-primary-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px 12px 20px;
+    border: 1px solid rgba(0, 255, 136, 1);
+    color: rgba(0, 255, 136, 1) ;
+    border-radius: 50px;
+    font-style: 600;
+    font-weight: 600;  
+    cursor: pointer;
+   background: none;
+}
+.btn-primary-3:hover{
+    background-color: #0392306a;
+    transform: translatex(3px) scale(1.05);
+    box-shadow: 0 5px 24px rgba(3,165,25,0.525);
+} 
+.btn-primary-3{
+    background-color: #06c54260;
+}
+.button-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;  
+}
+
+/* nave items*/
+nav{
+    width: 71%;
+    max-width: 1600px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+   
+}
+nav .menu-items{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    cursor: pointer;
+    
+}
+nav .menu-items a{
+   font-style: 700;
+   font-size: 16px;
+   font-weight: 500;
+}
+  .circle-image{
+ background-image: url(../assets/hero-circle.png);
+background-position: center;
+ background-size: cover;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-bottom: 40px;
+ width: 350px;
+ height: 350px;
+ position: relative;
+ cursor: pointer;
+}
+.new-option{
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 255, 136, 1);
+    border-radius: 50px;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px 8px 16px;
+    gap: 10;
+    font-weight: 600;
+    font-style: 600;
+    font-size: 18px;
+    box-shadow: -3px 3px 20px rgba(0, 255, 136, 0.65);
+    cursor: pointer;  
+}
+.new-option:hover{
+    transform: translatey(-4px);
+    border-color: rgba(255, 255, 255, .18);
+    
+}
+
+.tachwave-item-header{
+    font-style: Extra Bold;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.item-container{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+#banner{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../assets/hero-bg.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid rgb(21, 9, 49); */ 
+}
+
+/* about section */
+#about{
+     background-color: rgba(26, 11, 46, 1);
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+}
+ hr{
+   border: 1px solid rgb(56, 27, 105);
+    opacity: 0.1;
+    width: 1200px;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    margin-bottom: 16px;
+}
+.about-header{
+     color: white;
+    font-style: Bold;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px;
+
+}
+.about-containt{
+   font-size: 16px;
+   font-weight: 400;
+   text-align: center;
+   color: white;
+   margin-bottom: 79px;
+}
+
+/* the-podcast-rating */
+
+.the-podcast-rating{
+    max-width: 1200px;
+    display: flex;
+    gap: 80px;
+    margin-bottom: 120px;
+    margin: 0 auto;
+     margin-bottom: 120px;
+}
+.monthly{
+   color:  rgba(0, 255, 136, 1);
+   font-size: 48px;
+   font-weight: 900;
+   text-align: center;
+   margin-bottom: 16px;
+}
+.published{
+    color:  rgba(0, 255, 136, 1);
+   font-size: 48px;
+   font-weight: 900;
+   text-align: center;
+   margin-bottom: 16px;
+}
+.rating{
+   color:  rgba(0, 255, 136, 1);
+   font-size: 48px;
+   font-weight: 900;
+   text-align: center;
+   margin-bottom: 16px;
+}
+.experts{
+   color:  rgba(0, 255, 136, 1);
+   font-size: 48px;
+   font-weight: 900;
+   text-align: center;
+   margin-bottom: 16px;
+}
+.month{
+    
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}   
+.episode{       
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+
+.average{ 
+     color: white;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.industry{
+   display: flex;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* Why Choose TechWave container */
+#Why-Choose-tachwave{
+  background-color: rgba(35, 14, 61, 1);
+  color: white;
+  cursor: pointer;
+  padding-top: 110px;
+  
+}
+.tachwave-header{
+     color: white;
+     font-style: Bold;
+     font-size: 48px;
+     font-weight: 700;
+     text-align: center;
+     /* border: 1px solid red; */
+}
+
+/* Why Choose TechWave card */
+.features-grid{
+    margin-top: 36px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin: 0 auto;
+    padding: 20px;
+    grid-template-areas: 
+    "h m m" 
+    "h g g"
+    "e e r";
+}
+.features-card{
+    background-color: rgba(53, 17, 101, 0.4);;
+    border: 1px solid rgba(255, 255, 255, .08);
+    border-radius: 20px;
+    padding: 18px;
+    min-width: 120px;
+    box-shadow: 0 18px 45pc rgba(0,0,0,.18);
+    transition: transform .22s ease;
+    border-color: .22s ease ;  
+    box-shadow: -3px 3px 20px rgba(114, 104, 104, 0.18);
+}
+.features-card:hover{
+    transform: translatey(-4px);
+    border-color: rgba(255, 255, 255, .18);
+    
+}
+
+.icon-card{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 16px;
+    margin-top: 25px;
+    
+}
+.card-h3{
+    font-style: Bold;
+    font-weight: 700;
+    margin-bottom: 16px;
+    
+}
+.card-list{
+    color: rgb(252, 252, 252);
+    font-size: 16px;
+    font-weight: 400;
+}
+.headphone{
+    grid-area: headphone;
+}
+.global-community{
+    grid-area: global-community;
+}
+.mobile-friendly{
+    grid-area: mobile-friendly;
+}
+.exclusive-interviews{
+    grid-area: exclusive-interviews;
+}
+.rich-resource{
+    grid-area: rich-resource;
+}
+.features-grid{
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "headphone mobile-friendly mobile-friendly"
+    "headphone global-community global-community"
+    "exclusive-interviews exclusive-interviews rich-resource";
+    gap: 30px;
+    
+
+}
+
