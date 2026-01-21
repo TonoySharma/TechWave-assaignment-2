@@ -550,23 +550,3 @@ footer{
     font-size: 16px;
     font-weight: 400;
 }
-
-
-/* responsive section */
-@media screen and (max-with:576px){
-    header{
-    background-color: rgb(31, 16, 53);
-    padding: 20px;
-    width: 100%;
-}
-h2 {
- font-size: 1em;
-}
-.menu-items {
-   display: none;
-   width: 100%;
-}
-.btn-primary {
-    display: none;
-}
-}
