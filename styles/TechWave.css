@@ -16,7 +16,15 @@ color: rgba(251, 9, 180, 1)
 header{
  background-color: rgb(31, 16, 53);
  padding-top: 30px;
- 
+}
+/* nav item hover*/
+.nav-item{
+    transition: 0.ss;
+    
+}
+.nav-item:hover{
+    opacity: 1;
+    color: gray;
 }
 .btn-primary{
     color: rgba(255, 255, 255, 1);
@@ -41,7 +49,7 @@ header{
 }
 .btn-primary-2{
 color: rgb(255, 255, 255);
-    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
  display: flex;
  justify-content: center;
  align-items: center;
@@ -107,7 +115,7 @@ nav .menu-items a{
    font-size: 16px;
    font-weight: 500;
 }
-  .circle-image{
+.circle-image{
  background-image: url(../assets/hero-circle.png);
 background-position: center;
  background-size: cover;
@@ -359,7 +367,206 @@ background-position: center;
     "headphone global-community global-community"
     "exclusive-interviews exclusive-interviews rich-resource";
     gap: 30px;
-    
-
+     
 }
 
+/* Featured-Episodes-container */
+#featured-episodes{
+    background: rgba(26, 11, 46, 1);
+    padding-top: 120px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.episodes{
+    color: rgba(255, 255, 255, 1);
+    font-style: Bold;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;  
+    
+}
+.Featured-Episodes-container{
+    display:grid;  
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center; 
+    align-items: center;
+    padding-top: 40px;    
+}
+.card-containt{
+    background: rgba(37, 13, 68, 1);
+    margin: 0 auto; 
+    border-radius: 20px; 
+    overflow: hidden; 
+     padding-bottom: 20px; 
+    
+}
+.card-containt iframe{
+ width: 100%;
+}
+.eatured-episodes-card{
+    padding: 0 24px;
+ 
+
+}
+.episod-header{
+    color: white;
+    font-style: Bold;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 24px 0 ;
+   
+}
+.episod-title{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+.clock-time{
+  display: flex;
+  color: rgba(0, 255, 136, 1);
+  font-style: 600;
+  font-size: 16px;
+  gap: 6px;
+  margin-top: 12px;
+}
+ .times{
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: 600;
+}  
+ /* meet the host */
+.host-section{
+    background: rgba(26, 11, 46, 1);
+    padding-bottom: 120px;
+    
+ }
+.meet{
+    color:  rgba(255, 255, 255, 1);
+    font-style: Bold;
+    font-size: 48px;
+     font-weight: 700;
+     text-align: center;
+     padding-top: 120px;
+}
+.host-card{
+ display: flex;
+ align-items: center;
+ gap: 25px;
+ margin: auto;
+ background: rgba(53, 17, 101, 0.4);
+ border-radius: 20px;
+ max-width: 1200px;
+ margin-top: 40px;
+ cursor: pointer;
+ box-shadow: -3px 3px 20px rgba(167, 161, 161, 0.18); 
+  padding-left: 40px;
+}
+.host-card:hover{
+    transform: translatey(-4px);
+    border-color: rgba(255, 255, 255, .18);
+}
+.host-image{
+ max-width: 200px; 
+ padding: 24px 0;
+}
+.head-container{
+    color:  rgba(255, 255, 255, 1);
+    font-style: Bold;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
+   
+   
+}
+
+.meet-title{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    
+}
+/* social icon */
+.social-icons{
+    display: flex;
+    gap: 8px; 
+}
+.icon-card{
+    border: 1px solid rgba(83, 60, 114, 1);
+     box-sizing: border-box;
+     border-radius: 50px;
+     width: 40px;
+     height: 40px; 
+     display: flex;
+     text-decoration: none; 
+     align-items: center;
+     justify-content: center;
+        
+}
+
+  /* footer sections  */
+footer{
+    background: rgb(31, 30, 30);
+}
+.footer-header{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding-top: 120px;
+ 
+}
+.footer-social-icon{
+ display: flex;
+ gap: 8px; 
+ cursor: pointer;
+    
+}
+.icon-containt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 34px;
+    gap: 40px;
+}
+.social-name{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.2s;
+}
+.social-name:hover{
+    opacity: 1;
+    color: gray;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+    color: rgba(250, 250, 250, 1);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* responsive section */
+@media screen and (max-with:576px){
+    header{
+    background-color: rgb(31, 16, 53);
+    padding: 20px;
+    width: 100%;
+}
+h2 {
+ font-size: 1em;
+}
+.menu-items {
+   display: none;
+   width: 100%;
+}
+.btn-primary {
+    display: none;
+}
+}
